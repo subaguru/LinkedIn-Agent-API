@@ -31,7 +31,7 @@ It automatically finds relevant news sources, creates engaging posts, and sugges
 ### API Documentation
 
 ### Swagger UI
-- http://localhost:8000/docs
+- https://linkedin-agent-api-ggen.onrender.com/docs
 
 ### Endpoint
 - POST /generate-post
@@ -44,12 +44,15 @@ It automatically finds relevant news sources, creates engaging posts, and sugges
 ### Response
 {
   "topic": "Artificial Intelligence",
+  
   "linkedin_post": "**The Future of Work: Harnessing the Power of Artificial Intelligence**\n\nAs AI...",
+  
   "news_sources": [
     "https://en.wikipedia.org/wiki/Artificial_intelligence",
     "https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence",
     "https://cloud.google.com/learn/what-is-artificial-intelligence"
   ],
+  
   "image_suggestion": "https://www.pexels.com/photo/person-looking-at-code-on-computer-screen-1238971/"
 }
 
