@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langchain-community
+langgraph
+langgraph-cli[inmem]
+langchain_groq
+fastapi
+uvicorn
+watchdog
+duckduckgo-search
+tavily-python
+requests
+google-generativeai
+langchain-google-genai
